@@ -1,7 +1,9 @@
-`yarn install`
+```bash
+yarn
+```
 
-cd into `/packages/shared` and run `yarn build` this should output the file to dist with the declarations
+Running this will install deps and build shared package.
 
-open the project in web storm and open the file `packages/app/src/index.ts`
+Problem: go to jumps to *definition*, not *implementation*, does not work when clicking on JSX component
 
-click goto
+[packages/app/src/index.ts](packages/app/src/index.ts)
