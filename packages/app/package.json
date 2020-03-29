@@ -10,9 +10,13 @@
     ]
   },
   "dependencies": {
+    "react": "16.13.1",
+    "react-dom": "16.13.1",
     "shared": "^1.0.0"
   },
   "devDependencies": {
+    "@types/react": "16.9.26",
+    "@types/react-dom": "16.9.5",
     "typescript": "^3.7.4"
   }
 }

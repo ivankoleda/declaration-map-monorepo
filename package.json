@@ -4,7 +4,13 @@
   "main": "index.js",
   "license": "MIT",
   "private": true,
+  "scripts": {
+    "prepare": "lerna run build"
+  },
   "workspaces": [
     "packages/*"
-  ]
+  ],
+  "devDependencies": {
+    "lerna": "^3.20.2"
+  }
 }

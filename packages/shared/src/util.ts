@@ -1,1 +1,3 @@
-export const logger = (str: any) => console.log(str);
+export const sum = (a: number, b: number): number => a + b;
+
+// IMPLEMENTATION
